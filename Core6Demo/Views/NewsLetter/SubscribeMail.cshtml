@@ -1,0 +1,19 @@
+﻿
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<div class="tech-btm">
+   
+    <p>Teknoloji, yazılım ve diğer bloklar.. </p>
+    <form action="/NewsLetter/SubscribeMail/" method="post">
+        <input type="email" placeholder="Email" required="" name="Mail">
+        <input type="submit" value="Abone Ol" id="btn2">
+    </form>
+    <script>
+        $('#btn2').click(function () {
+            swal("Abone Olundu!");
+        });
+    </script>
+</div>
+
